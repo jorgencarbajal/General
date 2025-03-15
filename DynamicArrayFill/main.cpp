@@ -12,8 +12,8 @@ int *fil1t2(int,int);
 //Same as above but now instead this return a pointer to the address
 // of a pointer and that pointer is pointing to the address of the
 // first element of an array.
-//The idea here is that one pointer points to rows and the other
-// to first element in an array representing columns
+//The idea here is that one pointer points to pointer of rows, and the other
+// to first element address in an array representing columns
 int **filAray(int,int);
 //A function that takes in an integer pointer and two ints
 void prntAry(int *,int,int);
@@ -33,13 +33,16 @@ int main(int argc, char** argv) {
     
     //Input or initialize values Here
     row=5,perLine=col=10;
+
     //Here we are calling a function that fills a 1D array
     //a1D points to the address of the first element in and array
     a1D=filAray(row*col);
+
     //To my best guess this is a way of showing you a way in using
     // rows and colums to simulate filling a 2D array
     //The indexing is key, and using the formula row*col+c is necessary
     a12D=fil1t2(row,col);
+
     //Function that takes in two parameters filling a 2D array
     a2D=filAray(row,col);
     
@@ -113,19 +116,23 @@ void prntAry(int *a,int n,int perLine){
 }
 
 int **filAray(int row,int col){
+    //Ensure rows and col are within bounds
     row=row<2?2:
       row>1000?1000:row;
     col=col<2?2:
       col>1000?1000:col;
-    //This dynamically allocates a 2D array that points to a pointer (pointing to rows)
-    // to a pointer (pointing to columns)
+
+    //This dynamically allocates a 2D array that points to the address of the first
+    // element of an array of pointers
     //This first part only dynamically allocates the row pointers
     int **array=new int*[row];
+
     for(int r=0;r<row;r++){
         //This part right here dynamically allocates the columns
         //Which in this case is simply a pointer pointing to the address of the first
         // element in this "row"
         //Through each iteration of the for loop the new column array is dynamically allocated
+        //Since we already initialized above, here we are just initializing the columns
         array[r]=new int[col];
         for(int c=0;c<col;c++){
             array[r][c]=rand()%90+10;//2 digit numbers
@@ -147,6 +154,7 @@ int *fil1t2(int row,int col){
     return array;
 }
 
+//Dynamically fills the pointer array
 int *filAray(int n){
     n=n<2?2:
       n>1000?1000:n;
