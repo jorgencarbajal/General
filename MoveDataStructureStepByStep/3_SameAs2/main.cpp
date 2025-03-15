@@ -1,20 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data and Verify
- *      2 - Read in N Sets of Data and Verify
- *      3 - Format the Results
- * Why? We can solve the problem without structures.  This is the last step
- * in removing potential errors other than the new concepts that we need to
- * learn and apply.  The less amount of confusion will occur if we can
- * concentrate on the new concepts, but you have to get to that point.
- * OK, this works perfectly on Code-E!  But, it shows nothing in terms of
- * of understanding the structure concepts.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
