@@ -1,18 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- * Why?  Cause many of you put absolute crap all over the place.
- * You just start plugging in garbage, no comments, no organization.  No
- * methodical approach to how you are going to solve the problem.  This
- * is especially true when you are trying to use a new concept.  So, at
- * least if you start from a template that is trying to tell you where to
- * put things, then there might be some initial organization.  Of course, 
- * you would have to read/look at those comments.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
