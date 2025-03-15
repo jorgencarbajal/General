@@ -1,16 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data
- * Why? Many of you go off half-cocked in solving the problem instead of
- * making sure you can read the data and verify that it got read-in 
- * correctly.  If you can't get the data in correctly when you are
- * applying the new concept, you have no idea what is working and what isn't.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
