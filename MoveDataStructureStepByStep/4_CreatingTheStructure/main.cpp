@@ -1,18 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data and Verify
- *      2 - Read in N Sets of Data and Verify
- *      3 - Format the Results
- *      4 - Static Structure Array
- * Why? We need a dynamic structure.  Variable number of movies.  But let's
- * say I don't have that concept fully down yet.  Create a static structure
- * larger than we need and see if we can get that to work.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
