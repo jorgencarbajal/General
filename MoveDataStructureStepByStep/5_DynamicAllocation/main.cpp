@@ -1,19 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data and Verify
- *      2 - Read in N Sets of Data and Verify
- *      3 - Format the Results
- *      4 - Static Structure Array
- *      5 - Change to a Dynamic Char Array inside Static Structure
- * Why? You should be able to handle character arrays and size them 
- * as needed.  Make sure you allocate and deallocate the arrays before
- * you exit or there will be a memory leak.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
