@@ -1,22 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data and Verify
- *      2 - Read in N Sets of Data and Verify
- *      3 - Format the Results
- *      4 - Static Structure Array
- *      5 - Change to a Dynamic Char Array inside Static Structure
- *      6 - Dynamic Structure
- *      7 - Fill Structure Function
- *      8 - Display Function for the Structure
- * Why? As before noted, this will complete our MVC Pattern implementation.
- * Again, just copy, cut and paste.  The function implementation has already
- * been tested out!
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
