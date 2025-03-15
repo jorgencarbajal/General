@@ -1,17 +1,3 @@
-/* 
- * Author: Dr. Mark E. Lehr
- * Created on April 3rd, 2021, 11:40 AM
- * Purpose: Movie Data Structure
- *      Step by step Solution
- *      0 - Copy the Template
- *      1 - Read in 1 Set of Data and Verify
- *      2 - Read in N Sets of Data and Verify
- * Why? Cause you won't be able to loop without getting an error unless
- * you check it out.  Again, solve without the new concepts so you know
- * that isn't the cause of your potential problems.  You should already know
- * these concepts, but why add to your potential confusion.
- */
-
 //System Level Libraries
 #include <iostream>   //I/O Library
 #include <cstdlib>    //Random Number Generator, Setting seed, etc....
