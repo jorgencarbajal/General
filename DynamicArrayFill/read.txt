@@ -1,1 +1,0 @@
-creating and filling arrays dynamically, good reminder on pointers
