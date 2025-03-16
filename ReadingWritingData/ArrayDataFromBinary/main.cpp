@@ -39,8 +39,8 @@ int main(int argc, char** argv) {
     
     //Open the Text and binary files
     fstream txtFile,binFile;
-    txtFile.open("data.txt",ios::in|ios::out);
-    binFile.open("data.bin",ios::in|ios::out|ios::binary);
+    txtFile.open("data.txt",ios::out);
+    binFile.open("data.bin",ios::out|ios::binary);
     
     //Declare all Variables Here and Loop
     int nRecords=100;//Number of records 
