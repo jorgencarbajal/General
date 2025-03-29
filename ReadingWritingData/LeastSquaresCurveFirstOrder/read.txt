@@ -1,0 +1,1 @@
+Reading in data from txt files and using the method of least squares to curve fit... I think that is how you say it.
