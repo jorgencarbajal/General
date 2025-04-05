@@ -1,0 +1,1 @@
+This code examples the use of templates with classes to create two tables of different data types
