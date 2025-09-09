@@ -1,2 +1,0 @@
-The program creates tables of data and shows how classes use inheritance, how to create and use abstract classes, the importance of 
-using the virtual destructor, and how the class operator is used

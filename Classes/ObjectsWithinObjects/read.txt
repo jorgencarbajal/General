@@ -1,2 +1,0 @@
-An example of how to create objects dynamically within other classes. We initially create a 1D array of data from a class. We then create a table of data
-where each row is a pointer that points to a pointer. The nested pointer then points to the initial class that dynamically created that 1D array.
