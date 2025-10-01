@@ -6,6 +6,7 @@
         "initializer_list": "cpp",
         "ranges": "cpp",
         "span": "cpp",
-        "1089_duplicate_zeros": "cpp"
+        "1089_duplicate_zeros": "cpp",
+        "vector": "cpp"
     }
 }
